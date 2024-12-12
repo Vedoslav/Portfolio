@@ -5,7 +5,7 @@ import re
 import time
 from multiprocessing.dummy import Pool
 
-"""This parser collects data about gouache paints from 4 Ukrainian websites, filters it, sorts by price and load to Excel file"""
+"""This parser collects data about gouache paints from 4 Ukrainian websites, filters it, sorts by price and load to Excel file. Variant 1 and variant 2 differ by structure of parsing inside pages of each website; executing time of both variants is almost equal."""
 
 user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0'
 
