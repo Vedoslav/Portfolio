@@ -100,6 +100,8 @@ def gouache():
     print(f'Data from all main SERPs has been parsed in {(end2-start2):.03f} sec')
     
     start3 = time.time() #start the third time controller
+
+    #Formation of the final DataFrame, filtering and sorting the data
     
     #pattern to normalize different variants of price
     pattern = '(\d+\.\d+)|(\d+)' 
