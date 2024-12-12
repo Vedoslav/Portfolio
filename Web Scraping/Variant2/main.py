@@ -124,7 +124,7 @@ def gouache():
     final_df = final_df.sort_values(by='Price', ascending=True).reset_index(drop=True)
     
     #export filtered and sorted dataframe to xlsx-file and display it
-    #final_df.to_excel('gouache.xlsx')
+    final_df.to_excel('gouache.xlsx')
     display(final_df)
     
     #end of the third time controller
