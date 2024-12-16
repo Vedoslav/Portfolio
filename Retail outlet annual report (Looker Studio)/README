@@ -1,0 +1,5 @@
+This report summarize data of Ukrainian smartphone retail outlet (dataset from Kaggle). 
+The first plot shows total income per day from April, 1, 2018 to December, 29, 2022.
+The second plot shows annual income by payment type (cash, credit, debit, mobile payments). The period of time in this plot is from April, 1 to March, 31. 
+The third plot shows total income by different product types (for all periods). 
+You can filter the data using special slicers with date, product type and price.
